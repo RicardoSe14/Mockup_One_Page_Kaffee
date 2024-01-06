@@ -1,0 +1,132 @@
+*{
+    padding: 0 !important;
+}
+
+
+.Titulo {
+    font-family: 'Germania One', system-ui;
+    color: white;
+    font-size: calc(3.5rem + 0.6vw) !important;;
+    transition: 1s ease;
+    background-color: transparent !important;
+    border: solid white;
+    display: inline-block;
+
+}
+
+.Titulo:hover {
+    color:  #039442 !important;
+    background-color:  white !important;
+    transform: rotateY(360deg);
+}
+
+
+.Titulo2 {
+    transition: 0.3s ease;
+    background-color: transparent !important;
+    border: solid white;
+    display: inline-block;
+
+}
+
+.Titulo2:hover {
+    color:  #026f31 !important;
+    background-color:  white !important;
+}
+
+
+
+.Cabecera {
+    background: 
+      linear-gradient(90deg,#039442  50%,#ecc607 0) 
+      var(--_p,100%)/200% no-repeat;
+            background-clip: text;
+    transition: 0.8s ease;
+  }
+  .Cabecera:hover {
+    --_p: 0%;
+  }
+
+
+
+.titulo {
+	padding-top: 20px !important;
+	font-size: calc(1.3rem + 0.6vw) !important;
+	padding-bottom: 20px !important;
+	position: relative;
+	top: 45px !important;
+	vertical-align: middle;
+	align-items: center;
+}
+
+
+#tarjeta1{
+    font-family: 'Germania One', system-ui;
+	height: 450px !important;
+	background-size: cover;
+	background-image: url(../img/1.jpg) ;
+    transition: 0.3s ease;
+}
+
+#tarjeta1:hover{
+    filter: brightness(130%);
+}
+
+
+#tarjeta2{
+    
+    font-family: 'Germania One', system-ui;
+	height: 450px !important;
+	background-size: cover;
+	background-image: url(../img/2.jpg);
+}
+
+#tarjeta2:hover{
+    filter: brightness(130%);
+}
+
+#tarjeta3{
+    
+    font-family: 'Germania One', system-ui;
+	height: 600px !important;
+	background-size: cover;
+	background-image: url(../img/3.jpg);
+    vertical-align: center;
+}
+
+
+
+#tarjeta4{
+    
+    font-family: 'Germania One', system-ui;
+	height: 200px !important;
+	background-size: cover;
+	background-color: #ddb803;
+    vertical-align: center;
+}
+
+#tarjeta3:hover{
+    filter: brightness(130%);
+}
+
+
+    a:link, a:visited, a:hover{
+        text-decoration: none !important;
+        color: white !important;
+      }  
+
+
+.h1 {
+    position: fixed;
+    z-index: 2 !important;
+}
+
+.footer {
+    font-size: calc(0.5rem + 1.0vw) !important;
+    font-family: 'Germania One', system-ui;
+    height: 70px;
+    background-color: #026f31;
+}
+
+
+
