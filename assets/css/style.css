@@ -128,4 +128,32 @@
     background-color: #026f31;
 }
 
+.modal-content {
+	font-family: 'Oswald';
+	background-color: transparent !important;
+	border: 0px !important;
+}
+
+.cafes {
+    font-size: calc(0.7rem + 0.8vw) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../img/4.jpg);
+}
+
+
+.pasteles {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../img/5.jpg);
+}
+
+.helados {
+    font-size: calc(0.7rem + 0.8vw) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../img/6.jpg);
+}
+
+
 
