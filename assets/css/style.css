@@ -135,7 +135,7 @@
 }
 
 .cafes {
-    font-size: calc(0.7rem + 0.8vw) !important;
+    font-size: calc(0.5rem + 0.8vw) !important;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: url(../img/4.jpg);
